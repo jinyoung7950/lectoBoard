@@ -9,7 +9,6 @@
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
-
 <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
@@ -45,7 +44,7 @@
 			<div class="form-group">
 				<label for="textTitle" class="col-sm-2 control-label">Title</label>
 				<div class="col-sm-10">
-					<p class="form-control-static" id='textTitle'>Title</p>
+					<p class="form-control-static" id='textContent'>title</p>
 				</div>
 			</div>
 			<div class="form-group">
@@ -57,19 +56,17 @@
 			<div class="form-group">
 				<label for="textContent" class="col-sm-2 control-label">Content</label>
 				<div class="col-sm-10">
-					<p class="form-control-static" id='textContent'>Content Content
-						Content</p>
+					<textarea class='form-control' rows="20" cols="102"
+						id='textContent'></textarea>
 				</div>
 			</div>
 			<div class='form-group'>
 				<div class='col-sm-2'></div>
 				<div class='col-sm-10'>
-					<div class="btn-group" role="group" aria-label="...">
-						<button type="button" class="btn btn-default">List</button>
-						<button type="button" class="btn btn-default">Modify</button>
-						<button type="button" class="btn btn-default">Delete</button>
-						<button type="button" class="btn btn-default">Reply</button>
-					</div>
+				<p class='text-center'>
+				<input type="button" class='btn btn-default' value='cancle'> 
+				<input
+					type="submit" class='btn btn-success' value='Modify'>
 				</div>
 			</div>
 		</form>
